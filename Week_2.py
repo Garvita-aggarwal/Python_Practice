@@ -49,3 +49,26 @@ print(fruits)             #pop - removes item by its index
 
 fruits =("apple","banana","citrus orange","guava")
 print(fruits)
+
+#2. Accessing a tuple
+fruits =("apple","banana","citrus orange","guava")
+print(fruits[0])
+print(fruits[2])
+
+#3. Slicing 
+
+a = (10,20,30,40)
+print(a[1:3])
+print(a[:3])
+
+#4.Immutable
+a = (10,20,30,40)
+#a.append(50)         #Not changable
+
+#5. Tuple Methods (Tuples have fewer methods because you can't modify them)
+
+#Count
+a = (10,20,10,30,40,10)
+print(a.count(10))
+
+#index
