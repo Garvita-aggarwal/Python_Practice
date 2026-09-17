@@ -7,6 +7,10 @@ print(greet("AI"))
 
 
 
+def greet(name):
+    name = input("Enter Name :")
+    print("Hello", name, "! Welcome.")
+greet()
 #Part	Meaning
 #def	      Keyword used to define a function
 #greet	      Function name
