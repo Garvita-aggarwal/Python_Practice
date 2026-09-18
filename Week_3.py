@@ -8,9 +8,10 @@ print(greet("AI"))
 
 
 def greet(name):
-    name = input("Enter Name :")
-    print("Hello", name, "! Welcome.")
-greet()
+    print("Hello",name, "! Welcome.")
+
+name = input("Enter Name :")
+greet(name)
 #Part	Meaning
 #def	      Keyword used to define a function
 #greet	      Function name
@@ -32,6 +33,8 @@ greet()
 
 #2. Strings
 #Indexing & slicing
+
+
 #upper(), lower(), capitalize()
 #strip()
 #replace()
