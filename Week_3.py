@@ -20,9 +20,18 @@ greet(name)
 #Indented code	Function body
 
 
-
-
 #Multiple parameters
+
+#Greeting with name and age
+def greet(name,age):
+    print("Hello",name,"!")
+    print("You are",age,"years old.")
+    
+name = input("Enter name :")
+age = int(input("Enter your age :"))
+
+greet(name,age)
+
 #Default arguments
 #Keyword arguments
 #Local vs global variables
