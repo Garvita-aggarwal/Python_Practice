@@ -32,7 +32,14 @@ age = int(input("Enter your age :"))
 
 greet(name,age)
 
-#Default arguments
+#Default arguments (A default parameter is a parameter that already has a value. If the user doesn't provide a value, Python uses the default value.)
+
+def greet(name="User"):
+    print("hello",name)
+
+greet()
+
+
 #Keyword arguments
 #Local vs global variables
 #*args
