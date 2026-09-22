@@ -52,6 +52,12 @@ print(numbers)
 numbers =[50,10,40,20,30]
 numbers.sort(reverse=True)
 print(numbers)
+
+#Sorting strings
+name = ["Jiya","Laiba","Bhavya","Samiksha"]
+name.sort()
+
+print(name)
 #Tuple - Immutable means cannot change 
 
 #1. Creating a Tuple
@@ -83,3 +89,12 @@ print(a.count(10))
 #index
 a = (10,20,10,30,40,10)
 print(a[2])
+
+#6. Tuple Unpacking
+
+student = ("Garvi",21,"Data Ethusiast")
+
+name,age,career = student
+print(name)
+print(age)
+print(student)
