@@ -35,12 +35,24 @@ greet(name,age)
 #Default arguments (A default parameter is a parameter that already has a value. If the user doesn't provide a value, Python uses the default value.)
 
 def greet(name="User"):
-    print("hello",name)
+    print("hello",name)  #Simple Argument
 
 greet()
 
+#multiple argument with a default
+def greet(name,message="Welcome"):
+    print(message,name)
 
+greet("Bhavana")
+
+#Real World Example
+def calculate_bill(price,tax=18):
+    total = price + (price * tax/100)
+    print("Total :",total)
+    
+calculate_bill(1000)
 #Keyword arguments
+
 #Local vs global variables
 #*args
 #**kwargs
