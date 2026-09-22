@@ -42,7 +42,16 @@ fruits.pop(3)
 print(fruits)             #pop - removes item by its index 
 
 
+#Sort and Reverse
+#sort- Sort numbers from smallest to largest
 
+numbers =[50,10,40,20,30]
+numbers.sort()
+print(numbers)
+
+numbers =[50,10,40,20,30]
+numbers.sort(reverse=True)
+print(numbers)
 #Tuple - Immutable means cannot change 
 
 #1. Creating a Tuple
