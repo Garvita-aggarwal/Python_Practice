@@ -95,6 +95,4 @@ elif unit =="F":
 else:
     print("Invalid unit")
 
-name = "Yashu" 
-age  =  22
-weight = 62.0 
+

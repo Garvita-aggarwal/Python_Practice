@@ -1,5 +1,8 @@
 # Modules, OOP basics, comprehensions + mini project
-#1. Comprehensions 
+
+
+
+#  Comprehensions 
 #List comprehension
 #List comprehension with if
 #Nested list comprehension
